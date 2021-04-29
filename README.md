@@ -24,9 +24,7 @@ In this case, Change the head of the node to the next node of the current head.
 Free the memory of the replaced head node.
 
 Case 2: The key is found in the middle or last, except at the head 
-In this case, Find the previous node of the node to be deleted. 
- 
-Change the next the previous node to the next node of the current node.
+In this case, Find the previous node of the node to be deleted.Change the next the previous node to the next node of the current node.
 Free the memory of the replaced node.
 
 Case 3: The key is not found in the list , No operation needs to be done
